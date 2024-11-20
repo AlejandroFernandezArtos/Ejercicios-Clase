@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Los videojuegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1386A5;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        section {
+            padding: 20px;
+            display: none; /* Inicialmente ocultamos todas las secciones */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La actualidad del videojuego</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="mostrarSeccion('inicio')">Inicio</a>
+        <a href="#" onclick="mostrarSeccion('Noticias')">Noticias</a>
+        <a href="#" onclick="mostrarSeccion('seccion2')">Sección 2</a>
+        <a href="#" onclick="mostrarSeccion('seccion3')">Sección 3</a>
+    </nav>
+
+    <section id="inicio">
+        <h2>Los videojuegos</h2>
+        <p>Esta es la página principal de mi sitio web.</p>
+    </section>
+
+
+    <section id="Noticias">
+
+        <h2>Noticias</h2>
+        <h1>Noticias Recientes de Videojuegos</h1>
+
+        <div class="Noticias">
+
+            <div>
+                <h2>God of War: Ragnarok - Nuevo Tráiler Oficial</h2>
+                <p>El nuevo tráiler de God of War: Ragnarok ha sido lanzado, revelando detalles emocionantes sobre la próxima entrega de la saga.</p>
+                <p>Fecha de Publicación: 15 de abril de 2024</p>
+            </div>
+            <img src="https://www.google.com/imgres?q=god%20of%20war&imgurl=https%3A%2F%2Fsm.ign.com%2Ft%2Fign_es%2Flists%2F7%2F7-games-li%2F7-games-like-god-of-war-worth-playing-in-2023_7w54.1200.jpg&imgrefurl=https%3A%2F%2Fes.ign.com%2Fgod-of-war-2018%2F190659%2Ffeature%2F7-juegos-como-god-of-war-que-te-recomendamos-jugar-en-2023&docid=41dL-SLmEpuZ0M&tbnid=SBQQb29u5RzTCM&vet=12ahUKEwiljPfI-MmFAxVj1gIHHU2OABoQM3oECGsQAA..i&w=1200&h=675&hcb=2&ved=2ahUKEwiljPfI-MmFAxVj1gIHHU2OABoQM3oECGsQAA" alt="GodOfWar" >
+        </div>
+
+        <div class="noticia">
+
+            <div>
+                <h2>Elden Ring - Gameplay Revelado</h2>
+                <p>Un nuevo gameplay de Elden Ring ha sido revelado, mostrando la espectacularidad del mundo abierto y el combate del juego.</p>
+                <p>Fecha de Publicación: 10 de abril de 2024</p>
+            </div>
+            <img class="imagen" src="Elden.jpeg" alt="Elden Ring">
+
+        </div>
+
+        <div class="Noticias">
+
+            <div>
+                <h2>Halo Infinite - Fecha de Lanzamiento Confirmada</h2>
+                <p>Halo Infinite finalmente tiene una fecha de lanzamiento oficial, junto con nuevas imágenes del juego que emocionan a los fanáticos.</p>
+                <p>Fecha de Publicación: 5 de abril de 2024</p>
+
+                <img class="imagen" src="Halo.jpeg" alt="Halo Infinite">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="seccion2">
+        <h2>Sección 2</h2>
+        <p>Contenido de la sección 2...</p>
+    </section>
+
+
+    <section id="seccion3">
+        <h2>Sección 3</h2>
+        <p>Contenido de la sección 3...</p>
+    </section>
+
+    <script src="ScriptSecciones.java"></script>
+
+</body>
+</html>

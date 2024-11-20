@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+
+canvas {
+    border: 2px solid white;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    z-index: 10;
+}
+
+#weaponChoices button {
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgray;
+    border: none;
+    cursor: pointer;
+}
+
+#weaponChoices button:hover {
+    background-color: darkgray;
+}

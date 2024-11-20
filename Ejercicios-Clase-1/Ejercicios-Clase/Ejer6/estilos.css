@@ -1,0 +1,46 @@
+/*Selector Universal*/
+* {
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 5px;
+  font-weight:bolder;
+  font-size: 15px;
+}
+
+footer{
+    margin: ;
+    padding: ;
+    border-top: palevioletred 5px dotted ;
+    border-right: rgb(22, 1, 11) 15px ridge ;
+    border-left: rgb(80, 15, 15) 15px ridge ;
+    border-bottom: rgb(43, 255, 0) 25px double ;
+
+}
+
+/*Selector De Etiqueta*/
+h1 {
+  background-color: aqua;
+  text-align: center;
+}
+
+/*Selector De Clase*/
+p.FondoAzul {
+  background-color: aquamarine;
+  margin-left: 43px;
+}
+
+/*Selector De ID*/
+p#Naranja {
+  background-color: orange;
+}
+
+/*Selector Descendiente*/
+footer p {
+  color: hotpink;
+  box-sizing: content-box;
+}
+
+footer ol {
+  color: rgb(255, 60, 0);
+  text-align: center;
+}
