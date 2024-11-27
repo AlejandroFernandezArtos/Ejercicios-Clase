@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d6d6d6; /* Color gris del fondo externo */
+}
+
+.outer-container {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: 10% auto; /* Margen arriba y abajo del contenedor */
+    background-color: #a8f0a5; /* Fondo verde */
+    border-radius: 15px; /* Bordes redondeados del área principal */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+/* Recuadro gris en la izquierda */
+.left-box {
+    width: 15%; /* Más pequeño que el contenedor verde */
+    height: 60%; /* Más bajo que el recuadro verde */
+    background-color: #d6d6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+/* Contenido de la barra lateral */
+.sidebar {
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    background-color: #c0c0c0;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Contenido principal */
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Barra de navegación */
+header {
+    background-color: #5f5f5f;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px 15px 0 0; /* Bordes redondeados superiores */
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Galería tipo polaroid */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.polaroid-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.polaroid {
+    background-color: white;
+    padding: 10px;
+    border: 3px solid black; /* Borde negro para las polaroids */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px; /* Bordes redondeados para las polaroids */
+}
+
+.polaroid img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.polaroid p {
+    margin: 0;
+    font-size: 12px;
+}
